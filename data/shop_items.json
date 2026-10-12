@@ -1,0 +1,13 @@
+[
+  {
+    "id": "file_demo_1",
+    "name": "Bộ Config Server KingMC Mẫu",
+    "description": "Tài liệu hướng dẫn tối ưu và config mẫu cho server Minecraft Skyblock/Survival.",
+    "price": 50000,
+    "downloadUrl": "https://example.com/demo-config.zip",
+    "localFile": null,
+    "category": "Tài liệu",
+    "salesCount": 0,
+    "createdAt": "2026-10-12T14:59:13.092Z"
+  }
+]

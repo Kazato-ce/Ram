@@ -144,3 +144,10 @@ dist
 # Database backup artifacts
 backups/
 *.dump
+
+# Local uploads and backups
+storage/files/
+src/old_commands_backup/
+src/old_interactions_backup/
+data/kingmc_economy.json
+data/shop_orders.json
