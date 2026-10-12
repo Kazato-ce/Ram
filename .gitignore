@@ -145,9 +145,7 @@ dist
 backups/
 *.dump
 
-# Local uploads and backups
+# Local uploads and data
 storage/files/
-src/old_commands_backup/
-src/old_interactions_backup/
 data/kingmc_economy.json
 data/shop_orders.json
