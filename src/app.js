@@ -2,15 +2,12 @@ import 'dotenv/config';
 import { Client, Collection, GatewayIntentBits } from 'discord.js';
 import { REST } from '@discordjs/rest';
 import express from 'express';
-import cron from 'node-cron';
-
 import config from './config/application.js';
 import { initializeDatabase } from './utils/database.js';
 import { logger, startupLog, shutdownLog } from './utils/logger.js';
 import { loadCommands, registerCommands as registerSlashCommands } from './handlers/loaders/commandLoader.js';
 import { minecraftBot } from './services/minecraft/mineflayerBot.js';
 import pkg from '../package.json' with { type: 'json' };
-import { EXPECTED_SCHEMA_VERSION, EXPECTED_SCHEMA_LABEL } from './config/database/schemaVersion.js';
 
 class KingMCBot extends Client {
   constructor() {
