@@ -3,28 +3,11 @@
  */
 
 export const CATEGORY_ICONS = {
-  Birthday: '🎂',
-  Community: '👥',
-  Core: 'ℹ️',
-  Economy: '💰',
-  Fun: '🎮',
-  Giveaway: '🎉',
-  JoinToCreate: '🔌',
-  Leveling: '📊',
-  Logging: '📝',
-  Moderation: '🛡️',
-  Music: '🎵',
-  Reaction_roles: '🎭',
-  Search: '🔍',
-  ServerStats: '📈',
-  Ticket: '🎫',
-  Tools: '🛠️',
-  Utility: '🔧',
-  Verification: '✅',
-  Welcome: '👋',
   Games: '🎲',
   Shop: '🛒',
-  KingMC: '👑',
+  Economy: '💰',
+  General: 'ℹ️',
+  Core: 'ℹ️',
 };
 
 /** Commands that always stay available so admins can recover access. */
